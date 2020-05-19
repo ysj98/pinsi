@@ -1,0 +1,290 @@
+/* bar商城 start */
+
+nav .banner p {
+    width: 1100px;
+    margin: 20px auto;
+    height: 35px;
+    line-height: 35px;
+    background-color: white;
+    padding-left: 15px;
+}
+
+nav .banner {
+    /* 灰色背景部分 */
+    height: 230px;
+}
+
+nav .banner div {
+    width: 1100px;
+    /* 白色部分 */
+    height: 100px;
+    margin: 0px auto;
+    padding: 15px 0 15px 15px;
+    background-color: white;
+}
+
+nav .banner div ul {
+    background-color: white;
+    color: black;
+    height: 45px;
+}
+
+nav .banner div ul:nth-of-type(1) {
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+nav .banner div ul:nth-of-type(1) span {
+    cursor: pointer;
+    position: absolute;
+    right: 34px;
+    top: 9px;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 25px;
+    background: rgb(136, 0, 11);
+    color: white;
+}
+
+nav .banner div ul:nth-of-type(1) span:hover {
+    background-color: rgb(168, 64, 73);
+}
+
+nav .banner div ul li {
+    text-align: center;
+    float: left;
+    margin-left: 0;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 8px;
+}
+
+nav .banner div ul li:hover {
+    background-color: rgb(136, 0, 11);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav .banner div ul li:first-child {
+    width: 50px;
+}
+
+nav .banner div ul li:first-child:hover {
+    background-color: white;
+}
+
+nav .banner div ul li:nth-of-type(2) {
+    text-align: center;
+    width: 40px;
+    background-color: rgb(136, 0, 11);
+    color: white;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+
+/* a-z字母部分 */
+
+nav .banner div ul:nth-of-type(2) {
+    margin-top: 10px;
+}
+
+nav .banner div ul:nth-of-type(2) li {
+    width: 30px;
+    height: 30px;
+    border: 1px black solid;
+    border-right: none;
+    line-height: 30px;
+    text-align: center;
+}
+
+nav .banner div ul:nth-of-type(2) li:first-child {
+    background-color: rgb(136, 0, 11);
+    color: white;
+}
+
+nav .banner div ul:nth-of-type(2) li:nth-of-type(2) {
+    color: black;
+    background-color: white;
+    border-radius: 0px;
+    margin-right: 0px;
+}
+
+nav .banner div ul:nth-of-type(2) li:last-of-type {
+    border-right: 1px black solid;
+}
+
+nav .banner div ul:nth-of-type(2) li:hover {
+    background-color: rgb(136, 0, 11);
+    color: white;
+    border-radius: 0;
+}
+
+
+/* bar商城 end */
+
+article {
+    width: 100%;
+    overflow: hidden;
+}
+
+article p {
+    width: 1115px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    top: 5px;
+}
+
+article p span {
+    color: rgb(136, 0, 11);
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 2px rgb(136, 0, 11) solid;
+}
+
+article .list {
+    width: 1115px;
+    margin: 0 auto;
+    border-top: 1px #ccc solid;
+    padding: 30px 0;
+}
+
+article .last {
+    border-bottom: 1px #ccc solid;
+}
+
+article .list img {
+    width: 150px;
+    margin: 3px;
+    border: 1px #ccc solid;
+}
+
+article .list .right {
+    position: relative;
+    width: 957px;
+    float: right;
+}
+
+article .list .right p {
+    width: 100%;
+}
+
+article .list .right p:first-child {
+    margin: 10px 0;
+    margin-left: 0px;
+    width: 115px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    padding-left: 5px;
+    background: rgb(136, 0, 11) url(../img/jiantou.jpg) no-repeat 101px 0px;
+    background-size: 20px 30px;
+}
+
+article .list .right p:last-of-type {
+    width: 944px;
+    margin-left: 15px;
+}
+
+article .list .right a {
+    position: absolute;
+    top: 146px;
+    right: 34px;
+    color: white;
+    width: 100px;
+    height: 25px;
+    display: block;
+    background: rgb(170, 145, 145);
+    text-align: center;
+    line-height: 25px;
+    border-radius: 3px;
+}
+
+article .list .right a:hover {
+    background-color: rgb(136, 0, 11);
+}
+
+
+/* 翻页 start */
+
+article .page {
+    width: 100%;
+    height: 60px;
+}
+
+article .page p {
+    width: 1115px;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 35px;
+}
+
+article .page p span {
+    color: black;
+    display: inline-block;
+    background-color: white;
+    border: 1px rgb(170, 145, 145) solid;
+    height: 22px;
+    line-height: 22px;
+    width: 22px;
+    text-align: center;
+    cursor: auto;
+}
+
+article .page p span:hover {
+    background: rgb(109, 1, 1);
+}
+
+
+/* 上一页 */
+
+article .page p .prve {
+    cursor: pointer;
+    text-align: right;
+    width: 50px;
+    padding-right: 5px;
+    background: white url(../img/left.png) no-repeat 4px 7px;
+}
+
+article .page p .prve:hover {
+    background: rgb(170, 145, 145) url(../img/left1.png) no-repeat 4px 7px;
+}
+
+
+/* 下一页 */
+
+article .page p .next {
+    cursor: pointer;
+    width: 50px;
+    padding-left: 5px;
+    text-align: left;
+    background: white url(../img/right.png) no-repeat 47px 7px;
+}
+
+article .page p .next:hover {
+    background: rgb(170, 145, 145) url(../img/right1.png) no-repeat 47px 7px;
+}
+
+
+/* 确定按钮 */
+
+article .page p .btn {
+    cursor: pointer;
+    width: 40px;
+    text-align: center;
+}
+
+article .page p input {
+    height: 20px;
+    line-height: 20px;
+    width: 22px;
+    text-align: center;
+}
+
+
+/* 翻页 end */

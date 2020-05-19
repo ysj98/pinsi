@@ -1,0 +1,306 @@
+    /* 今日推荐 start */
+    
+    article {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    article>p:nth-child(1) {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    article p:nth-child(2) {
+        font-size: 18px;
+    }
+    
+    article p:nth-child(3) {
+        font-size: 14px;
+        color: #cccccc;
+        line-height: 30px;
+    }
+    
+    article .content {
+        overflow: hidden;
+        width: 800px;
+        margin: 0 auto;
+    }
+    
+    article .content p {
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    article .content img {
+        margin-top: 22px;
+    }
+    
+    article .content .left {
+        text-align: center;
+        width: 50%;
+        float: left;
+        margin-top: 22px;
+    }
+    
+    article .content .left img {
+        width: 320px;
+    }
+    
+    article .content .right {
+        text-align: right;
+        width: 50%;
+        float: right;
+    }
+    
+    article .content .right img {
+        width: 360px;
+    }
+    
+    article .content .right p:nth-of-type(1) {
+        margin-right: 94px;
+    }
+    
+    article .content .right p:nth-of-type(2) {
+        margin-right: 56px;
+    }
+    
+    article .content .right img:nth-of-type(2) {
+        width: 300px;
+    }
+    /* 今日推荐end */
+    /* 商城精选 start */
+    
+    section {
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    section .top {
+        text-align: center;
+        width: 100%;
+        height: 300px;
+        background: url('../img/bgdian.jpg') repeat;
+    }
+    
+    section .top p:nth-child(1) {
+        padding-top: 50px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    section .top p:nth-child(2) {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+    
+    section .top p:nth-child(3) {
+        font-size: 14px;
+        margin: 5px 0;
+        color: rgb(151, 148, 148);
+    }
+    
+    section .top p:nth-child(3) span {
+        position: relative;
+        left: 23%;
+    }
+    
+    section ul {
+        width: 65%;
+        margin: 0 auto;
+        margin-top: -130px;
+        padding: 0 15px;
+        border-top: 10px solid rgb(96, 0, 0);
+        background-color: white;
+    }
+    
+    section ul li {
+        background-color: rgb(233, 233, 233);
+        margin-top: 15px;
+        width: 29%;
+        display: inline-block;
+    }
+    /* section ul li:nth-child(2n) {
+        margin-left: 15px;
+        margin-right: 15px;
+    } */
+    
+    section>ul li:nth-child(3n+1) {
+        margin-right: 15px;
+    }
+    
+    section>ul li:nth-child(3n) {
+        margin-left: 15px;
+    }
+    
+    section ul li img {
+        width: 100%;
+    }
+    
+    section ul li .desc {
+        width: 100%;
+        height: 55px;
+        text-align: left;
+    }
+    
+    section ul li .desc span,
+    section ul li .desc p {
+        margin-left: 10px;
+        line-height: 25px;
+    }
+    
+    section ul li .desc p {
+        font-size: 16px;
+    }
+    
+    section ul li .desc button {
+        padding: 2px 5px;
+        background-color: rgb(170, 145, 145);
+        border-radius: 5px;
+        color: white;
+        float: right;
+        margin-right: 10px;
+        outline: none;
+    }
+    
+    section ul li .desc button:hover {
+        background-color: rgb(96, 0, 0);
+    }
+    /* 商城精选 end */
+    /* 艺术家 start */
+    
+    .writer {
+        margin-top: 30px;
+        height: 450px;
+        width: 100%;
+        position: relative;
+    }
+    
+    .writer div {
+        display: inline-block;
+    }
+    
+    .writer .left,
+    .writer .right {
+        width: 15%;
+        height: 100%;
+        background-color: rgb(233, 233, 233);
+    }
+    
+    .writer .left {
+        float: left;
+    }
+    
+    .writer .right {
+        float: right;
+    }
+    
+    .writer .center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100%;
+        width: 60%;
+        background-color: rgb(233, 233, 233);
+    }
+    
+    .writer .center p {
+        text-align: center;
+    }
+    
+    .writer .center p:nth-child(1) {
+        font-weight: bold;
+        font-size: 28px;
+        margin: 5px 0;
+    }
+    
+    .writer .center p:nth-child(2) {
+        font-size: 16px;
+    }
+    
+    .writer .center ul {
+        overflow: hidden;
+        text-align: center;
+        width: 87%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    
+    .writer .center ul li {
+        float: left;
+        width: 24%;
+        margin-right: 9px;
+    }
+    
+    .writer .center ul li img {
+        border: 3px white solid;
+        width: 80px;
+        border-radius: 50%;
+    }
+    
+    .writer .center ul li:last-child {
+        margin-right: 0px;
+    }
+    
+    .writer .center ul li .name {
+        z-index: -1;
+        position: relative;
+        top: -44px;
+        background-color: white;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    
+    .writer .center ul li .name p:first-child {
+        font-weight: normal;
+        line-height: 30px;
+        margin: 0 auto;
+        font-size: 14px;
+        margin-top: 10px;
+        width: 45px;
+        border-bottom: 2px solid black;
+    }
+    
+    .writer .center ul li .name p:last-child {
+        text-align: left;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-indent: 26px;
+        font-size: 8px;
+    }
+    
+    .writer .center ul li .name p:last-child span {
+        color: red;
+    }
+    /* 翻页按钮 */
+    
+    .writer .center>div:nth-of-type(1) {
+        width: 30px;
+        height: 47px;
+        background: url(../img/btn2-2.png) center center no-repeat;
+        position: absolute;
+        left: 5px;
+        top: 62%;
+        transform: translateY(-50%);
+    }
+    
+    .writer .center>div:nth-of-type(1):hover {
+        background: url(../img/btn1-1.png) center center no-repeat;
+    }
+    
+    .writer .center>div:nth-of-type(2) {
+        width: 30px;
+        height: 47px;
+        background: url(../img/btn2.png) center center no-repeat;
+        position: absolute;
+        right: 5px;
+        top: 62%;
+        transform: translateY(-50%);
+    }
+    
+    .writer .center>div:nth-of-type(2):hover {
+        background: url(../img/btn1.png) center center no-repeat;
+    }
+    /* 艺术家 end */

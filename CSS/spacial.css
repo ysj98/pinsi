@@ -1,0 +1,179 @@
+ /* 专场页面样式 */
+ /* 专场中心 start */
+ 
+ article {
+     width: 100%;
+     overflow: hidden;
+     background: url(../img/bgdian.jpg);
+     padding-top: 40px;
+ }
+ 
+ article>p {
+     width: 100%;
+     text-align: center;
+ }
+ 
+ article>p:nth-child(1) {
+     font-size: 20px;
+     font-weight: bold;
+     margin-bottom: 10px;
+ }
+ 
+ article>p:nth-child(2) {
+     font-size: 18px;
+     margin-bottom: 10px;
+ }
+ 
+ article>p:nth-child(3) {
+     font-size: 14px;
+     color: rgb(143, 143, 144);
+     margin-bottom: 30px;
+ }
+ 
+ article .content {
+     padding-top: 10px;
+     padding-bottom: 22px;
+     width: 800px;
+     margin: 0 auto;
+     box-shadow: 0px 0px 8px #ccc;
+     background-color: white;
+ }
+ 
+ article .content .box {
+     border: 1px solid rgb(220, 220, 220);
+     overflow: hidden;
+     width: 750px;
+     height: 266px;
+     margin: 0 auto;
+     margin-top: 30px;
+ }
+ 
+ article .content .box>img {
+     width: 450px;
+     height: 266px;
+     float: left;
+ }
+ 
+ article .content .box .right {
+     position: relative;
+     padding-left: 20px;
+     width: 280px;
+     float: right;
+ }
+ 
+ article .content .box .right p {
+     width: 99%;
+     text-align: left;
+     margin-top: 12px;
+ }
+ 
+ article .content .box .right p:nth-of-type(1) {
+     font-size: 14px;
+     font-weight: bold;
+     height: 45px;
+     line-height: 45px;
+     border-bottom: 1px rgb(143, 143, 144) dashed;
+ }
+ 
+ article .content .box .right p:nth-of-type(2) {
+     line-height: 20px;
+ }
+ 
+ article .content .box .right p:nth-of-type(3) {
+     text-align: center;
+ }
+ 
+ article .content .box .right img {
+     margin-right: 5px;
+     width: 40px;
+     vertical-align: middle;
+ }
+ 
+ article .content .box .right a {
+     position: absolute;
+     top: 221px;
+     right: 25px;
+     display: block;
+     color: white;
+     font-size: 14px;
+     width: 90px;
+     height: 35px;
+     text-align: center;
+     border-radius: 2px;
+     line-height: 35px;
+     background-color: rgb(170, 145, 145);
+ }
+ 
+ article .content .box .right a:hover {
+     background-color: rgb(109, 1, 1);
+ }
+ /* 翻页 start */
+ 
+ article .page {
+     width: 100%;
+     height: 60px;
+ }
+ 
+ article .page p {
+     width: 800px;
+     margin: 0 auto;
+     text-align: right;
+     margin-top: 35px;
+ }
+ 
+ article .page p span {
+     display: inline-block;
+     background-color: white;
+     border: 1px rgb(170, 145, 145) solid;
+     height: 22px;
+     line-height: 22px;
+     width: 22px;
+     text-align: center;
+     cursor: auto;
+ }
+ 
+ article .page p span:hover {
+     background: rgb(109, 1, 1);
+ }
+ /* 上一页 */
+ 
+ article .page p .prve {
+     cursor: pointer;
+     text-align: right;
+     width: 50px;
+     padding-right: 5px;
+     background: white url(../img/left.png) no-repeat 4px 7px;
+ }
+ 
+ article .page p .prve:hover {
+     background: rgb(170, 145, 145) url(../img/left1.png) no-repeat 4px 7px;
+ }
+ /* 下一页 */
+ 
+ article .page p .next {
+     cursor: pointer;
+     width: 50px;
+     padding-left: 5px;
+     text-align: left;
+     background: white url(../img/right.png) no-repeat 47px 7px;
+ }
+ 
+ article .page p .next:hover {
+     background: rgb(170, 145, 145) url(../img/right1.png) no-repeat 47px 7px;
+ }
+ /* 确定按钮 */
+ 
+ article .page p .btn {
+     cursor: pointer;
+     width: 40px;
+     text-align: center;
+ }
+ 
+ article .page p input {
+     height: 20px;
+     line-height: 20px;
+     width: 22px;
+     text-align: center;
+ }
+ /* 翻页 end */
+ /* 专场中心 end */
