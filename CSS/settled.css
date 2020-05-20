@@ -1,0 +1,178 @@
+article {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+article .top {
+    width: 700px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+article .top div {
+    text-align: center;
+}
+
+article .top div span {
+    margin: 0 auto;
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid rgb(238, 191, 195);
+    background-color: rgb(195, 71, 81);
+    color: white;
+    border-radius: 50%;
+}
+
+article .top div p {
+    color: rgb(195, 71, 81);
+    padding: 5px 0;
+}
+
+article .top div:nth-of-type(1) {
+    float: left;
+    position: relative;
+}
+
+article .top div:nth-of-type(2) {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+article .top div:nth-of-type(3) {
+    float: right;
+}
+
+
+/* 第三个小圆圈特殊设置样式 */
+
+article .top div:nth-of-type(3) span {
+    border: 2px solid rgb(241, 241, 241);
+    background-color: rgb(197, 197, 197);
+    color: white;
+    border-radius: 50%;
+}
+
+article .top div:nth-of-type(3) p {
+    color: rgb(194, 199, 210);
+}
+
+
+/* 添加横线 */
+
+article .top div:nth-of-type(1)::after,
+article .top div:nth-of-type(2)::after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 38px;
+    height: 2px;
+    width: 297px;
+    background-color: rgb(195, 71, 81);
+}
+
+article .top div:nth-of-type(2)::after {
+    background-color: rgb(219, 219, 219);
+}
+
+
+/* 表单 */
+
+article ul {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    /* border: 1px red solid; */
+}
+
+article ul li {
+    /* border: 1px red solid; */
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+article ul li input[type='text'] {
+    height: 35px;
+    width: 250px;
+    border: 1px rgb(194, 199, 210) solid;
+}
+
+
+/* 所在区域 */
+
+article ul li.area select {
+    height: 35px;
+    border: 1px rgb(194, 199, 210) solid;
+}
+
+
+/* 类型 */
+
+article ul li.type input {
+    position: relative;
+    top: 2px;
+    margin-right: 4px;
+}
+
+
+/* 个人头像 */
+
+article ul li.photo {
+    height: 102px;
+    position: relative;
+}
+
+article ul li.photo div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px rgb(194, 199, 210) solid;
+    margin-left: 60px;
+}
+
+article ul li.photo div img {
+    margin-top: 23px;
+}
+
+article ul li.photo span {
+    position: absolute;
+    top: 0;
+}
+
+article ul li.photo button {
+    background-color: rgb(246, 246, 246);
+    border: 1px rgb(194, 199, 210) solid;
+    padding: 5px 15px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 22px;
+}
+
+
+/* 个人简介 */
+
+article ul li.desc {
+    height: 75px;
+}
+
+article ul li.desc input {
+    height: 72px;
+}
+
+article ul li input[type='submit'] {
+    height: 37px;
+    width: 250px;
+    border: none;
+    background-color: rgb(136, 0, 11);
+    color: white;
+    border-radius: 3px;
+}

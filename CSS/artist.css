@@ -93,11 +93,11 @@ nav .banner div ul:nth-of-type(2) {
 }
 
 nav .banner div ul:nth-of-type(2) li {
-    width: 30px;
-    height: 30px;
+    width: 38px;
+    height: 38px;
     border: 1px black solid;
     border-right: none;
-    line-height: 30px;
+    line-height: 38px;
     text-align: center;
 }
 

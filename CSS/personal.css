@@ -1,0 +1,110 @@
+article {
+    margin-left: 15%;
+    width: 900px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+article .left,
+article .right {
+    display: inline-block;
+}
+
+article .left ul {
+    width: 160px;
+    /* border: 1px #ccc solid; */
+}
+
+article .left ul li {
+    cursor: pointer;
+    text-align: left;
+    text-indent: 20px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px rgb(222, 225, 230) solid;
+    background-color: rgb(250, 250, 250);
+}
+
+article .left ul li.action {
+    background-color: rgb(150, 95, 95);
+    border-left: 3px solid rgb(89, 3, 3);
+}
+
+article .left ul li:first-child {
+    border-top: 1px rgb(222, 225, 230) solid;
+}
+
+article .left ul li:hover {
+    background-color: rgb(150, 95, 95);
+    border-left: 3px solid rgb(89, 3, 3);
+}
+
+article .right {
+    padding: 0 30px;
+    width: 660px;
+    float: right;
+    background-color: rgb(250, 250, 250);
+}
+
+article .right>p {
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px rgb(222, 225, 230) solid;
+}
+
+article .right table {
+    width: 660px;
+    margin-top: 20px;
+}
+
+article .right table td {
+    height: 50px;
+    width: 300px;
+    /* border: 1px red solid; */
+}
+
+article .right table td input[type='text'] {
+    border: 1px rgb(222, 225, 230) solid;
+    width: 250px;
+    height: 30px;
+}
+
+article .right table td input[type='submit'] {
+    width: 250px;
+    height: 30px;
+    border: none;
+    background-color: rgb(89, 3, 3);
+    color: white;
+}
+
+
+/* 头像区域 */
+
+.photo {
+    position: relative;
+}
+
+.photo div {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    text-align: center;
+}
+
+.photo div img {
+    width: 120px;
+}
+
+.photo div a {
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(89, 3, 3);
+    background-color: rgb(222, 225, 230);
+    margin-top: 10px;
+    border-radius: 3px;
+}

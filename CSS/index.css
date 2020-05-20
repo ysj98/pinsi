@@ -41,7 +41,6 @@
         text-align: center;
         width: 50%;
         float: left;
-        margin-top: 22px;
     }
     
     article .content .left img {
@@ -66,8 +65,13 @@
         margin-right: 56px;
     }
     
+    article .content .right img:nth-of-type(1) {
+        height: 464px;
+    }
+    
     article .content .right img:nth-of-type(2) {
         width: 300px;
+        height: 330px;
     }
     /* 今日推荐end */
     /* 商城精选 start */
@@ -155,13 +159,14 @@
     }
     
     section ul li .desc button {
-        padding: 2px 5px;
+        padding: 3px 6px;
         background-color: rgb(170, 145, 145);
         border-radius: 5px;
         color: white;
         float: right;
         margin-right: 10px;
         outline: none;
+        border: none;
     }
     
     section ul li .desc button:hover {
@@ -209,13 +214,13 @@
         text-align: center;
     }
     
-    .writer .center p:nth-child(1) {
+    .writer .center>p:nth-child(1) {
         font-weight: bold;
         font-size: 28px;
         margin: 5px 0;
     }
     
-    .writer .center p:nth-child(2) {
+    .writer .center>p:nth-child(2) {
         font-size: 16px;
     }
     
@@ -273,6 +278,10 @@
     
     .writer .center ul li .name p:last-child span {
         color: red;
+    }
+    
+    .writer .center ul li .name p:last-child span:hover {
+        border-bottom: 1px red solid;
     }
     /* 翻页按钮 */
     

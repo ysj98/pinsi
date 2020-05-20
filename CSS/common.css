@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-size: 12px;
+    outline: none;
+    font-style: normal;
 }
 
 a {
@@ -34,8 +36,12 @@ header .top>span {
     left: 27%;
 }
 
-header a {
+header .right a {
     color: rgb(136, 0, 11);
+}
+
+header .right a:hover {
+    text-decoration: underline;
 }
 
 header .right {
@@ -70,6 +76,10 @@ header .right .shop a {
     color: black;
 }
 
+header .right .shop a:hover {
+    color: rgb(136, 0, 11);
+}
+
 header .right .shop:hover {
     background: rgb(202, 202, 202) url(../img/gouwuche1.png) no-repeat 8px 13px;
     background-color: rgb(180, 180, 180);
@@ -93,7 +103,7 @@ header .header_bg .search_box {
     position: absolute;
     top: 50%;
     transform: translateX(-50%);
-    right: 13%;
+    right: 6%;
 }
 
 header .header_bg .search_box input {
@@ -148,6 +158,7 @@ nav ul {
 nav ul a {
     color: white;
     font-size: 14px;
+    padding: 8px 52px;
 }
 
 nav ul li {
@@ -216,6 +227,10 @@ footer .top div {
     width: 29%;
     height: 80px;
     background: rgb(242, 242, 242) url(../img/footerIcon.png) no-repeat;
+}
+
+footer .top div:hover {
+    background: rgb(233, 233, 233) url(../img/footerIcon.png) no-repeat;
 }
 
 footer .top div p {
