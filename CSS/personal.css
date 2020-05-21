@@ -1,18 +1,21 @@
+/* 个人信息页样式 */
+
 article {
-    margin-left: 15%;
-    width: 900px;
+    width: 70%;
+    min-width: 900px;
     overflow: hidden;
+    margin: 0 auto;
     margin-top: 40px;
 }
 
-article .left,
-article .right {
-    display: inline-block;
+article .left {
+    float: left;
+    width: 18%;
+    min-width: 150px;
 }
 
 article .left ul {
-    width: 160px;
-    /* border: 1px #ccc solid; */
+    width: 100%;
 }
 
 article .left ul li {
@@ -26,23 +29,32 @@ article .left ul li {
     background-color: rgb(250, 250, 250);
 }
 
-article .left ul li.action {
-    background-color: rgb(150, 95, 95);
-    border-left: 3px solid rgb(89, 3, 3);
+article .left ul li a {
+    color: black;
 }
 
-article .left ul li:first-child {
-    border-top: 1px rgb(222, 225, 230) solid;
-}
-
+article .left ul li.action,
 article .left ul li:hover {
+    color: white;
     background-color: rgb(150, 95, 95);
     border-left: 3px solid rgb(89, 3, 3);
+}
+
+article .left ul li.action a,
+article .left ul li:hover a {
+    color: white;
+}
+
+article .left ul li:last-child {
+    border: none;
 }
 
 article .right {
+    float: right;
+    width: 74%;
     padding: 0 30px;
-    width: 660px;
+    padding-bottom: 20px;
+    min-width: 640px;
     float: right;
     background-color: rgb(250, 250, 250);
 }
@@ -56,14 +68,13 @@ article .right>p {
 }
 
 article .right table {
-    width: 660px;
+    width: 100%;
     margin-top: 20px;
 }
 
 article .right table td {
     height: 50px;
     width: 300px;
-    /* border: 1px red solid; */
 }
 
 article .right table td input[type='text'] {
@@ -107,4 +118,9 @@ article .right table td input[type='submit'] {
     background-color: rgb(222, 225, 230);
     margin-top: 10px;
     border-radius: 3px;
+}
+
+.photo div a:hover {
+    color: white;
+    background-color: rgb(89, 3, 3);
 }

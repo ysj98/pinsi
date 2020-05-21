@@ -1,1 +1,10 @@
 /* 支付方式 */
+
+article .right .content {
+    margin-top: 30px;
+    width: 100%;
+}
+
+article .right .content>img {
+    width: 100%;
+}

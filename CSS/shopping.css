@@ -1,1 +1,153 @@
 /* 购物车样式 */
+
+article {
+    min-width: 900px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+article table {
+    width: 100%;
+    border-top: 2px rgb(136, 0, 11) solid;
+    text-align: center;
+}
+
+
+/* 表格头 */
+
+article table thead tr td {
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* 表格主体 */
+
+article table tbody tr td {
+    height: 95px;
+    line-height: 95px;
+    border-top: 1px #ccc solid;
+}
+
+
+/* 给每列设置宽度 */
+
+article table tr td:nth-of-type(1) {
+    text-align: left;
+    width: 47%;
+    position: relative;
+}
+
+article table tr td:nth-of-type(2) {
+    width: 9%;
+}
+
+article table tr td:nth-of-type(3) {
+    width: auto;
+}
+
+article table tr td:nth-of-type(4) {
+    width: 8%;
+}
+
+article table tr td:nth-of-type(5) {
+    width: 16%;
+}
+
+article table thead tr td:nth-of-type(1) {
+    text-align: center;
+}
+
+
+/* 给表格主体的每列设置样式 */
+
+article table tbody tr td:nth-of-type(1) span {
+    margin-left: 110px;
+    font-size: 14px;
+}
+
+article table tbody tr td:nth-of-type(1) img {
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+
+article table tbody tr td:nth-of-type(2) {
+    font-size: 14px;
+}
+
+article table tbody tr td:nth-of-type(3) {
+    position: relative;
+}
+
+article table tbody tr td:nth-of-type(3) div {
+    overflow: hidden;
+    width: 134px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+article table tbody tr td:nth-of-type(3) a {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border: 1px #ccc solid;
+    display: block;
+    float: left;
+    color: #ccc;
+    font-size: 22px;
+}
+
+article table tbody tr td:nth-of-type(3) input {
+    text-align: center;
+    float: left;
+    height: 30px;
+    width: 70px;
+    line-height: 30px;
+    border: none;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    display: block;
+    float: left;
+    color: #ccc;
+    font-size: 16px;
+}
+
+article table tbody tr td:nth-of-type(4) {
+    font-size: 14px;
+    color: rgb(136, 0, 11);
+}
+
+article table tbody tr:last-child {
+    border: none;
+}
+
+article table tbody tr:last-child td:nth-of-type(1) {
+    font-size: 14px;
+}
+
+article table tbody tr:last-child td:nth-of-type(2) {
+    text-align: right;
+}
+
+article table tbody tr:last-child td:nth-of-type(2) span:last-of-type {
+    font-size: 22px;
+    color: rgb(136, 0, 11);
+    margin-right: 25px;
+}
+
+article table tbody tr:last-child td:nth-of-type(2) button {
+    background-color: rgb(96, 0, 0);
+    color: white;
+    font-size: 16px;
+    border: none;
+    width: 120px;
+    height: 40px;
+}

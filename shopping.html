@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="CSS/common.css">
     <!-- 购物车样式 -->
     <link rel="stylesheet" href="CSS/shopping.css">
+    <!-- 字体图标样式 -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -53,13 +55,74 @@
             <li><a href="mall.html">商城</a></li>
             <li><a href="artist.html">艺术家</a></li>
         </ul>
-        <div class="banner">
+        <!-- <div class="banner">
             <img src="upload/banner.jpg" alt="">
-        </div>
+        </div> -->
     </nav>
     <!-- 公共顶部 end -->
 
     <article>
+        <table cellspacing='0'>
+            <thead>
+                <tr>
+                    <td>商品</td>
+                    <td>单价(元)</td>
+                    <td>数量</td>
+                    <td>小计(元)</td>
+                    <td>操作</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="upload/2.jpg" alt="">
+                        <span>
+                            清代白石山翁名画幽梅图御品国珍收藏5DM
+                        </span>
+                    </td>
+                    <td>29.90</td>
+                    <td>
+                        <div>
+                            <a href="#">-</a>
+                            <input type="text" value="1">
+                            <a href="#">+</a>
+                        </div>
+                    </td>
+                    <td>
+                        29.90
+                    </td>
+                    <td><span class="fa fa-trash"></span></td>
+                </tr>
+                <tr>
+                    <td><img src="upload/2.jpg" alt="">
+                        <span>
+                        清代白石山翁名画幽梅图御品国珍收藏5DM
+                        </span>
+                    </td>
+                    <td>29.90</td>
+                    <td>
+                        <div>
+                            <a href="#">-</a>
+                            <input type="text" value="1">
+                            <a href="#">+</a>
+                        </div>
+                    </td>
+                    <td>
+                        29.90
+                    </td>
+                    <td><span class="fa fa-trash"></span></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        继续购物>>
+                    </td>
+                    <td colspan="3">
+                        <span>总计：</span>
+                        <span>￥29.90</span>
+                        <button>去结算</button></td>
+                </tr>
+        </table>
+        </tbody>
 
     </article>
 

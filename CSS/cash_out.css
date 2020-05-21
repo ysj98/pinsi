@@ -1,1 +1,54 @@
 /* 账户提现样式 */
+
+article .right .content {
+    margin-top: 30px;
+    width: 100%;
+}
+
+article .right .content>p {
+    height: 30px;
+    line-height: 30px;
+}
+
+article .right .content>img {
+    width: 100%;
+}
+
+article .right .content>div {
+    width: 410px;
+    height: 250px;
+    padding: 0px 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+article .right .content>div>p {
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+article .right .content>div>ul {
+    margin: 10px auto;
+}
+
+article .right .content>div>ul li {
+    height: 40px;
+    line-height: 40px;
+    width: 320px;
+}
+
+article .right .content>div>ul li input {
+    height: 30px;
+    width: 240px;
+    border: 1px #ccc solid;
+}
+
+article .right .content>div>ul li input[type='button'] {
+    border: none;
+    height: 35px;
+    width: 242px;
+    color: white;
+    background-color: rgb(96, 0, 1);
+}

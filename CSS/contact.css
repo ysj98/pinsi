@@ -1,1 +1,11 @@
 /* 联系我们 */
+
+article .right .content {
+    margin-top: 30px;
+    width: 100%;
+}
+
+article .right .content>p {
+    height: 30px;
+    line-height: 30px;
+}
