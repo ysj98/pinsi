@@ -31,6 +31,9 @@ article .left ul li {
 
 article .left ul li a {
     color: black;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 article .left ul li.action,
